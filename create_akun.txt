@@ -1,0 +1,10 @@
+CREATE TABLE daftar_akun (
+    id_akun INT AUTO_INCREMENT PRIMARY KEY,
+    nama_akun VARCHAR(255) NOT NULL,
+    username VARCHAR(255) NOT NULL,
+    alamat VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    tanggal_lahir DATE,
+    pilihan_kursus VARCHAR(255)
+);

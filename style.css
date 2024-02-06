@@ -1,0 +1,32 @@
+#app-bar {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+}
+
+#app-bar h1 {
+  margin: 0;
+}
+
+.nav-buttons {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-buttons li {
+  margin-right: 10px;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  background-color: orange;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
